@@ -1,15 +1,17 @@
-
+﻿
 # InfoBadge
 
 **InfoBadge** is a customizable e-paper badge system designed for events, personal identification, or creative display purposes. The project includes both firmware for the badge and a Python GUI for sending data to it over serial.
 
 ## 📁 Folder Structure
 
-- `fw/` — Arduino firmware for the badge.
-- `fw/fuentes/` — Fonts used in the firmware (see below).
-- `kicad/` — PCB design files (KiCad).
-- `python/` — Python GUI application for sending text to the badge.
-- `.gitignore`, `.git/` — Git configuration files.
+- `infobadge_configurator/` - Main badge configurator resources
+- `infobadge_configurator/fw/` - Firmware sources
+- `infobadge_configurator/python/` - Python configurator app
+- `hw/` - Hardware files shared by the whole project
+- `infobadge_editor/` - Visual editor + editor-specific firmware/tools
+- [`infobadge_editor/README.md`](infobadge_editor/README.md) - Editor workflow, structure, and protocol details
+
 
 ## 🔤 Adding Custom Fonts
 
@@ -17,7 +19,7 @@ To use custom fonts in the Arduino firmware:
 
 1. Go to [https://rop.nl/truetype2gfx/](https://rop.nl/truetype2gfx/).
 2. Convert your `.ttf` font to a `.h` file compatible with Adafruit GFX.
-3. Place the generated font header file (`.h`) into the `fw/fuentes/` folder.
+3. Place the generated font header file (`.h`) into the appropriate fonts folder inside `infobadge_configurator/fw/`.
 4. Include it in your sketch and use it with `display.setFont(...)`.
 
 This allows you to personalize the badge display with different font styles.
@@ -38,7 +40,7 @@ To install:
 
 ## 💻 Python GUI
 
-The Python application under the `python/` folder allows you to input up to five lines of information:
+The Python application under the `infobadge_configurator/python/` folder allows you to input up to five lines of information:
 - Name
 - Position
 - Webpage
@@ -46,6 +48,12 @@ The Python application under the `python/` folder allows you to input up to five
 - QR URL
 
 These strings are sent via serial to the badge. The GUI also allows serial port selection and uses a visual style inspired by [thebadg.es](https://www.thebadg.es).
+
+## 🎨 Visual Editor
+
+For more advanced badge layouts, the repository also includes a visual editor in [`infobadge_editor/`](infobadge_editor/).
+
+This editor is much more flexible than the basic Python GUI and allows you to create badge designs graphically, combining text, images, QR codes, colors, and free positioning on the canvas before sending the final design to the device.
 
 ## 🧠 Microcontroller
 

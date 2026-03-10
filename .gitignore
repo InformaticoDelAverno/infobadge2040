@@ -1,0 +1,54 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# JetBrains
+.idea/
+*.iml
+
+# IDEs / editors
+.vscode/
+.vs/
+*.code-workspace
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Arduino / embedded build artifacts
+build/
+dist/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.elf
+*.map
+*.hex
+*.bin
+
+# Local editor/runtime files
+*.log

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 384,
+    "height": 168
+  },
+  "items": [
+    {
+      "type": "text",
+      "text": "InfoBadge2040",
+      "font": "Quantico-Bold.ttf",
+      "size": 30,
+      "bold": false,
+      "italic": false,
+      "fg": "#000000",
+      "bg": "#ffffff",
+      "x": 10,
+      "y": 13
+    },
+    {
+      "type": "text",
+      "text": "Scan QR",
+      "font": "Quantico-Bold.ttf",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "fg": "#000000",
+      "bg": "#ffffff",
+      "x": 10,
+      "y": 60
+    },
+    {
+      "type": "text",
+      "text": "to customize",
+      "font": "Quantico-Bold.ttf",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "fg": "#000000",
+      "bg": "#ffffff",
+      "x": 10,
+      "y": 100
+    },
+    {
+      "type": "text",
+      "text": " @TheBadg.ES ",
+      "font": "Quantico-Bold.ttf",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "fg": "#ffff00",
+      "bg": "#000000",
+      "x": 10,
+      "y": 133
+    },
+    {
+      "type": "qr",
+      "data": "https://github.com/thebadg-es/infobadge2040",
+      "fg": "#ff0000",
+      "bg": "#ffffff",
+      "x": 272,
+      "y": 32,
+      "w": 100,
+      "h": 100
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 296,
+    "height": 128
+  },
+  "items": [
+    {
+      "type": "text",
+      "text": "Pablo Abel",
+      "font": "Quantico-Bold.ttf",
+      "size": 35,
+      "bold": false,
+      "italic": false,
+      "fg": "#000000",
+      "bg": "#ffffff",
+      "x": 10,
+      "y": 13
+    },
+    {
+      "type": "text",
+      "text": "Informático Del Averno",
+      "font": "Quantico-Bold.ttf",
+      "size": 16,
+      "bold": false,
+      "italic": false,
+      "fg": "#000000",
+      "bg": "#ffffff",
+      "x": 10,
+      "y": 51
+    },
+    {
+      "type": "text",
+      "text": "informaticodelaverno.com",
+      "font": "Quantico-Bold.ttf",
+      "size": 15,
+      "bold": false,
+      "italic": false,
+      "fg": "#000000",
+      "bg": "#ffffff",
+      "x": 10,
+      "y": 76
+    },
+    {
+      "type": "text",
+      "text": "@InformDelAverno",
+      "font": "Quantico-Bold.ttf",
+      "size": 21,
+      "bold": false,
+      "italic": false,
+      "fg": "#ffff00",
+      "bg": "#000000",
+      "x": 10,
+      "y": 101
+    },
+    {
+      "type": "qr",
+      "data": "https://www.informaticodelaverno.com/",
+      "fg": "#ff0000",
+      "bg": "#ffffff",
+      "x": 210,
+      "y": 21,
+      "w": 83,
+      "h": 85
+    }
+  ]
+}
